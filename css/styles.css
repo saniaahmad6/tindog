@@ -1,0 +1,182 @@
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+
+.white-section{
+    background-color: #fff;
+}
+
+/* title */
+#title{
+    
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+.captiontitle{
+    color: #fff;
+    font-size: 4rem;
+    line-height: 1.5;
+    
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-item{
+    padding: 0 1.125rem;
+    
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.mobile-image{
+    /* width: 60%px; */
+    height: 650px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+/* features */
+#features{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    background-color: #fff;
+
+}
+.each-feature{
+    text-align: center;
+}
+
+.feature-img{
+    padding: 2rem;
+    color: #ef8172;
+    font-size: 3rem;
+    
+}
+
+.feature-img:hover{
+    color: #ff4c88;
+}
+.feature-heading{
+    font-weight: bold;
+    
+}
+.feature-desc{
+    line-height: 1.5;
+    padding: 1rem 2rem;
+    color: #8f8f8f;
+}
+/* testimonials */
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    
+    color: #fff;
+    
+}
+
+.text1{
+    
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
+.test-img{
+    border-radius: 100%;
+    width: 10%;
+    margin-right: 20px;
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width: 15%;
+    margin: 0 2%;
+}
+
+
+
+/* pricing cards */
+
+
+#pricing{
+    padding: 100px;
+    
+}
+.card-div{
+    padding: 4% 2%;
+}
+.cardbtn{
+    width: 100%;
+    padding: 1% 3%;
+}
+
+.priceheading{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+@media (max-width: 1028px){
+    .mobile-image{
+        /* width: 60%px; */
+        /* height: 650px; */
+        transform: rotate(0);
+        position: static;
+        /* right: 25%; */
+    }
+    #title{
+        text-align: center;
+    }
+    
+}
+
+/* cta */
+
+
+
+/* footer */
+
+
+
+.footer-icon{
+    padding: 0.60%;
+}
